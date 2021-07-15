@@ -147,7 +147,7 @@ Once we're done pushing our code to Github, let's now go to Hecoku to complete t
 
 <br>
 <br>
-<br>
+
 > BONUS: To add environment variables in Heroku, open your app and select `Settings` and scroll doen to `config vars`. There you can add you envs. See Image below ;
 <br>
 
