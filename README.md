@@ -2,14 +2,14 @@
 
 ### Table of Content
 
-- Introduction
-- Getting Started
-- Creating a simplr App
-- Testing our app
-- Pushing to Github
-- Authorizing and connecting Heroku with Github
-- Deploying our App
-- Conclusion
+- [Introduction](#introdution)
+- [Getting Started](#getting-started)
+- [Creating a simple App](#creating-a-simple-node-application)
+- [Testing our app](#testing-our-app)
+- [Pushing to Github](#pushing-to-github)
+- [Authorizing and connecting Heroku with Github](#authorizing-and-connecting-heroku-with-github)
+- [Deploying our App](#deploying-our-app)
+- [Conclusion](#conclusion)
 
 ### Introdution
 
