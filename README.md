@@ -15,7 +15,7 @@
 
 - What is Heroku?
 
-Heroku is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Our platform is elegant, flexible, and easy to use, offering developers the simplest path to getting their apps to market.
+Heroku is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Heroku is elegant, flexible, and easy to use, offering developers the simplest path to getting apps to market.
 
 Heroku is fully managed, giving developers the freedom to focus on their core product without the distraction of maintaining servers, hardware, or infrastructure. The Heroku experience provides services, tools, workflows, and polyglot support—all designed to enhance developer productivity.
 <br>
@@ -26,18 +26,18 @@ Heroku is fully managed, giving developers the freedom to focus on their core pr
 One of Heroku's core features is deploying, managing, and scaling apps with your favorite languages [Node, Ruby, Python, Java, PHP, Go, and more].
 In this article, I'll show you how to deploy a Node.js app (API) on Heroku through Github.
 But before we fully dive in, we will need an ExpressJS application running on our machine and one prerequisite to using express is to have [Node](https://nodejs.org/en/) installed on your machine.
-We also need a
+We also need 
 
 - [Github](https://github.com "Github's Homepage") account and
-- An [Heroku](https://signup.heroku.com/dc) account
+- [Heroku](https://signup.heroku.com/dc) account.
 
 > Note 🖊️: It is assumed that you have prior knowledge on how to use [Git](https://git-scm.com/) and also understand how Github works. If not see this [article](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) for a guide but nonetheless, the usage of git in this article is sufficient.
-> <br> > <br>
+> <br>  <br>
 
 ### Creating a Simple Node Application
 
 Now let's create a very simple node app (API) that preforms a get request and displays a list of users and then push to Github.
-Heroku has made app deployment extremely simple and less complicated.
+Also, Heroku has made app deployment extremely simple and less complicated.
 
 > Note✏️:
 >
@@ -45,7 +45,7 @@ Heroku has made app deployment extremely simple and less complicated.
 > - I will also show you where to add environment variables if you need to.
 > - Completed code can be found [here](https://github.com/jobizil/github-heroku-api.git).
 
-Create a new folder in your fild manager, I'll call mine `github-heroku-api`, open it with terminal or your favourite code editor and initialize node (I'll be using [yarn](https://yarnpkg.com/) for this process).
+Create a new folder in your file manager, I'll call mine `github-heroku-api`, open it with terminal or your favourite code editor and initialize node (I'll be using [yarn](https://yarnpkg.com/) for this process).
 Then create a new file `server.js`
 
 ```
