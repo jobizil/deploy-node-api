@@ -1,4 +1,4 @@
-## Deploy NodeJS app on Heroku using Github
+
 
 ### Table of Content
 
@@ -36,7 +36,7 @@ We also need
 
 ### Creating a Simple Node Application
 
-Now let's create a very simple node app (API) that preforms a get request and displays a list of users and then push to Github.
+Now let's create a very simple node app (API) that performs a get request and displays a list of users and then push it to Github.
 Also, Heroku has made app deployment extremely simple and less complicated.
 
 > Note✏️:
@@ -45,7 +45,7 @@ Also, Heroku has made app deployment extremely simple and less complicated.
 > - I will also show you where to add environment variables if you need to.
 > - Completed code can be found [here](https://github.com/jobizil/github-heroku-api.git).
 
-Create a new folder in your file manager, I'll call mine `github-heroku-api`, open it with terminal or your favourite code editor and initialize node (I'll be using [yarn](https://yarnpkg.com/) for this process).
+Create a new folder in your file manager, I'll call mine `github-heroku-api`, open it with terminal or your favorite code editor and initialize node (I'll be using [yarn](https://yarnpkg.com/) for this process).
 Then create a new file `server.js`
 
 ```
@@ -53,6 +53,7 @@ mkdir github-heroku-api
 cd github-heroku-api
 yarn init -y
 touch server.js
+code .
 ```
 
 We'll install [express](https://www.npmjs.com/package/express) and [axios](https://www.npmjs.com/package/axios)
@@ -84,7 +85,7 @@ app.listen(PORT, () => console.log(`Server started on ${PORT}`))
 ### Testing our app
 
 To test our app we have to modify our `package.json` by adding a script ` "scripts": {"start": "node name-of-you-server" }`. Mine is `server.js` so my script will look like this ` "scripts": { "start": "node server" },`.
-Once that is resolved, you can simply head to your terminal and run the command `yarn start` and visit your browser at `localhost:PORT/users`.
+Once that is resolved, you can simply head to your terminal and run the command `yarn start`, and visit your browser at `localhost:PORT/users`.
 
 ### Pushing to Github
 
@@ -95,7 +96,7 @@ We will have to initialize git with `git init` in our project folder and touch a
 - Create a repo
   In order to push your code to Github, you'll have to create a git repository on GitHub. [Create a repository](https://docs.github.com/en/get-started/quickstart/create-a-repo).
 
-  Give your repo any name of your choice. For the sake of consisteny, I'll call mine `github-heroku-api`.
+  Give your repo any name of your choice. For the sake of consistency, I'll call mine `github-heroku-api`.
 
   Once you have created your repository, you can now push your code using the command below
 
@@ -111,9 +112,9 @@ We will have to initialize git with `git init` in our project folder and touch a
 
 ### Authorizing and Connecting Heroku with Github
 
-Once we're done pushing our code to Github, let's now go to Hecoku to complete the deployment process.
+Once we're done pushing our code to Github, let's now go to Heroku to complete the deployment process.
 
-- Create an [Heroku](https://signup.heroku.com/dc) account if you dont have one already.
+- Create an [Heroku](https://signup.heroku.com/dc) account if you don't have one already.
 
   ![Create Heroku Account](https://i.imgur.com/MYBCuHN.png)
 
@@ -131,7 +132,7 @@ Once we're done pushing our code to Github, let's now go to Hecoku to complete t
 
 ### Deploying our App
 
-- Once we have successfully connected to github, we can search for our repository and `connect`.
+- Once we have successfully connected to GitHub, we can search for our repository and `connect`.
 
   ![Imgur](https://i.imgur.com/9XMm8a8.png)
 
@@ -143,11 +144,11 @@ Once we're done pushing our code to Github, let's now go to Hecoku to complete t
 
   ![Deploy branch](https://i.imgur.com/j7WfK9W.png)
 
-- Visit your newly deployed app and don't forget to add `/users` at the end of the url (You final url will look like this `https://github-heroku-api.herokuapp.com/users` )
+- Visit your newly deployed app and don't forget to add `/users` at the end of the URL (You final URL will look like this `https://github-heroku-api.herokuapp.com/users` )
 
 <br>
 <br>
-
+<br>
 > BONUS: To add environment variables in Heroku, open your app and select `Settings` and scroll doen to `config vars`. There you can add you envs. See Image below ;
 <br>
 
@@ -155,6 +156,8 @@ Once we're done pushing our code to Github, let's now go to Hecoku to complete t
 
 ### Conclusion
 
-Now we can easily make changes in our github repo and it automatically changes in our deployed app.
+Now we can easily make changes in our Github repo and it automatically changes in our deployed app.
 
-"If you got value from this post, kindly Like ❤️, Share📬, and comment your thoughts.".
+That's all I have for now.  If you got value from this post, kindly Like ❤️, Share📬, and comment your thoughts.".
+
+See you at the top!
