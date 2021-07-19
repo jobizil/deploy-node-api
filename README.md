@@ -2,7 +2,7 @@
 
 ### Table of Content
 
-- [Introduction](#introdution)
+- [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Creating a simple App](#creating-a-simple-node-application)
 - [Testing our app](#testing-our-app)
@@ -11,7 +11,7 @@
 - [Deploying our App](#deploying-our-app)
 - [Conclusion](#conclusion)
 
-### Introdution
+### Introduction
 
 - What is Heroku?
 
